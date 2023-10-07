@@ -1,7 +1,8 @@
 import axios from "axios";
 
-// const BASE_URL = "http://154.56.57.194:8890/api/"
-const BASE_URL = "http://localhost:8890/api/"
+const port = 8891
+// const BASE_URL = `http://154.56.57.194:${port}/api/`
+const BASE_URL = `http://localhost:${port}}/api/`
 
 export const publicRequest = axios.create({
   baseURL: BASE_URL

@@ -6,14 +6,14 @@ const WhatsAppMsg = ({ phone, time, date }) => {
   موعدكم غدا في حدود  الساعة ${time}
   ${date}
   --------------
-  عيادة الغزالي لطب وتجميل الأسنان`
+  عيادة الابتسامه لطب وتجميل الأسنان`
 
   let frMsg = `
     Bonjour ..
     Votre rendez-vous est demain à ${time}
     ${date}
     --------------
-    Cabinet dentaire El Ghazaly
+    Cabinet dentaire El Ibtissama
   `
   const message = arMsg + frMsg;
 

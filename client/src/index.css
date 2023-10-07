@@ -1,0 +1,150 @@
+:root {
+  --mainColor: rgb(155, 89, 182, .5);
+  --mainColor: rgba(255, 127, 80, .7);
+  /* --mainColor: #00b894; */
+  --blueColor: #60a5fa; /* #2563eb  */
+  --redColor: #eb3b5a;
+  --yellowColor: #f1c40f; 
+  --yellowLightColor: #ffeaa7;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body, input, button, select {
+    text-transform: uppercase;
+  }
+  body {
+    background-color: #dfe6e9;
+  }
+  @media print {
+    body {
+      background-color: #FFF;
+    }
+  }
+  .btn-main {
+    background-color: var(--mainColor) !important;
+    color: #FFF;
+  }
+  .bg-main {
+    background-color: var(--mainColor) !important;
+    color: #FFF;
+  }
+  .Data-Patient:hover .text-main {
+    color: #FFF;
+  }
+  .border-main {
+    border-color: var(--mainColor);
+  }
+  .text-main {
+    color: var(--mainColor);
+  }
+  
+  .btn-blue {
+    background-color: var(--blueColor);
+    color: #FFF;
+  }
+  .bg-blue {
+    background-color: var(--blueColor);
+    color: #FFF;
+  }
+  .text-blue {
+    color: var(--blueColor);
+  }
+
+  .btn-yellow {
+    background-color: var(--yellowColor);
+    color: #FFF;
+  }
+  .bg-yellow {
+    background-color: var(--yellowColor);
+    color: #FFF;
+  }
+  .text-yellow {
+    color: var(--yellowColor);
+  }
+
+  .btn-yellow-light {
+    background-color: var(--yellowLightColor) !important;
+    color: #FFF;
+  }
+  .bg-yellow-light {
+    background-color: var(--yellowLightColor) !important;
+    color: #000;
+  }
+  .text-yellow-light {
+    color: var(--yellowLightColor);
+  }
+
+  .btn-white {
+    background-color: #FFF;
+    color: #00b894;
+  }
+  
+  .btn-blue-second {
+    background-color: #2563EB;
+    color: #FFF;
+  }
+  
+  .text-red {
+    color: var(--redColor)
+  }
+  .bg-red {
+    background-color: var(--redColor);
+    color: #FFF;
+    border: var(--redColor);
+  }
+  .btn-red {
+    background-color: var(--redColor);
+    color: #FFF;
+  }
+  .btn-red:hover, .btn-red:focus {
+    background-color: var(--redColor);
+    color: #FFF;
+    border: var(--redColor);
+  }
+  .text-white {
+    color: #FFF !important;
+  }
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .invoice,
+  .invoice * {
+    visibility: visible;
+  }
+  .invoice {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+
+

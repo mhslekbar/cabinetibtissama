@@ -1,0 +1,156 @@
+.child-mouth {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 240px;
+  height: 320px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #f78fb3;
+}
+
+.child-mouth .tooth {
+  border-radius: 50%;
+  background-color: #FFF;
+  color: #f78fb3;
+  padding: 2px;
+  z-index: 999;
+}
+
+/* START Tooth Left UP */
+
+#tooth-61 {
+  position: absolute;
+  top: 8px;
+  right: 85px;
+}
+#tooth-62 {
+  position: absolute;
+  top: 25px;
+  right: 56px;
+}
+#tooth-63 {
+  position: absolute;
+  top: 50px;
+  right: 34px;
+}
+#tooth-64 {
+  position: absolute;
+  top: 80px;
+  right: 16px;
+}
+#tooth-65 {
+  position: absolute;
+  top: 112px;
+  right: 8px;
+}
+
+/* END Tooth Left UP */
+
+/* START Tooth Right UP */
+#tooth-51 {
+  position: absolute;
+  top: 8px;
+  left: 85px;
+}
+#tooth-52 {
+  position: absolute;
+  top: 22px;
+  left: 58px;
+}
+#tooth-53 {
+  position: absolute;
+  top: 48px;
+  left: 36px;
+}
+#tooth-54 {
+  position: absolute;
+  top: 80px;
+  left: 18px;
+}
+#tooth-55 {
+  position: absolute;
+  top: 114px;
+  left: 7px;
+}
+
+/* END Tooth Right UP */
+
+/* START Tooth Right DOWN */
+#tooth-81 {
+  position: absolute;
+  bottom: 5px;
+  left: 92px;
+}
+#tooth-82 {
+  position: absolute;
+  bottom: 16px;
+  left: 66px;
+}
+#tooth-83 {
+  position: absolute;
+  bottom: 38px;
+  left: 40px;
+}
+#tooth-84 {
+  position: absolute;
+  bottom: 68px;
+  left: 22px;
+}
+#tooth-85 {
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+}
+
+/* END Tooth Right DOWN */
+
+
+/* START Tooth Right DOWN */
+#tooth-71 {
+  position: absolute;
+  bottom: 4px;
+  right: 88px;
+}
+#tooth-72 {
+  position: absolute;
+  bottom: 18px;
+  right: 64px;
+}
+#tooth-73 {
+  position: absolute;
+  bottom: 42px;
+  right: 43px;
+}
+#tooth-74 {
+  position: absolute;
+  bottom: 70px;
+  right: 25px;
+}
+#tooth-75 {
+  position: absolute;
+  bottom: 100px;
+  right: 12px;
+}
+
+/* END Tooth Right DOWN */
+
+.child-mouth .horizontal-line { 
+  position: absolute;
+  width: 1px;
+  background: #000;
+  height: inherit;
+  top: 0;
+  right: 118px;
+  z-index: 999;
+}
+
+.child-mouth .vertical-line { 
+  position: absolute;
+  width: 100%;
+  background: #000;
+  height: 1px;
+  top: 165px;
+  right: 0;
+  z-index: 999;
+}
